@@ -1,0 +1,50 @@
+<div class="container col-6 my-5">
+    <div class="row">
+        <h2 class="text-center">Sign Up</h2>
+        <form action="/register" method="POST">
+            <div class="mb-3">
+                <input 
+                    type="text" 
+                    class="form-control" 
+                    placeholder="User Name" 
+                    name="name"
+                >
+            </div>
+            <div class="mb-3">
+                <input 
+                    type="email" 
+                    class="form-control" 
+                    placeholder="Email"
+                    name="email"
+                >
+            </div>
+            <div class="mb-3">
+                <input 
+                    type="password" 
+                    class="form-control" 
+                    placeholder="Password" 
+                    name="password">
+            </div>
+            <div class="mb-3">
+                <input 
+                    type="password" 
+                    placeholder="Confirm Password"
+                    class="form-control" 
+                    name="password2"
+                >
+            </div>
+            <div class="input-group mb-3">
+                <input 
+                    type="file" 
+                    accept="image/*" 
+                    class="form-control "
+                >
+                <label class="input-group-text" for="inputGroupFile02"><i class="bi bi-upload"></i></label>
+            </div>
+            <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-success"> <i class="bi bi-person-check me-4"></i>Sign Up</button>
+            </div>
+        </form>
+        <p class="mt-1">Have An Account? <a href="/login">Login</a></p>
+    </div>
+</div>
